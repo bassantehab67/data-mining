@@ -1,0 +1,19 @@
+digraph G {
+    node0 [label="Job"];
+    node1 [label="Label: No", shape=box];
+    node0 -> node1 [label="Clerk"];
+    node2 [label="Label: Yes", shape=box];
+    node0 -> node2 [label="Doctor"];
+    node3 [label="﻿Age"];
+    node4 [label="Label: Yes", shape=box];
+    node3 -> node4 [label="26...35"];
+    node5 [label="Label: No", shape=box];
+    node3 -> node5 [label="<=25"];
+    node6 [label="Label: Yes", shape=box];
+    node3 -> node6 [label=">35"];
+    node0 -> node3 [label="Engineer"];
+    node7 [label="Label: No", shape=box];
+    node0 -> node7 [label="Student"];
+    node8 [label="Label: Yes", shape=box];
+    node0 -> node8 [label="Teacher"];
+}
